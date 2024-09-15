@@ -1,0 +1,40 @@
+[2024-09-15 20:49:16 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+VCD info: dumpfile dump.vcd opened for output.
+Time = 0 | in_data = 1234 | iir_out_data = 0000 | lms_out_data = 0000 | state = 00
+Time = 15 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = a3f4 | state = 01
+Time = 25 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = e77c | state = 10
+Time = 35 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = e77c | state = 11
+Time = 45 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = e77c | state = 00
+Time = 55 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = e77c | state = 01
+Time = 65 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = e77c | state = 10
+Time = 75 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = e77c | state = 11
+Time = 85 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = e77c | state = 00
+Time = 95 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = e77c | state = 01
+Time = 105 | in_data = 1234 | iir_out_data = 4488 | lms_out_data = e77c | state = 10
+Time = 110 | in_data = 5678 | iir_out_data = 4488 | lms_out_data = e77c | state = 10
+Time = 115 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = e77c | state = 11
+Time = 125 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = a330 | state = 00
+Time = 135 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = a330 | state = 01
+Time = 145 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = a330 | state = 10
+Time = 155 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = a330 | state = 11
+Time = 165 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = a330 | state = 00
+Time = 175 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = a330 | state = 01
+Time = 185 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = a330 | state = 10
+Time = 195 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = a330 | state = 11
+Time = 205 | in_data = 5678 | iir_out_data = 00c4 | lms_out_data = a330 | state = 00
+Time = 210 | in_data = 9abc | iir_out_data = 00c4 | lms_out_data = a330 | state = 00
+Time = 215 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = a330 | state = 01
+Time = 225 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = 6ff4 | state = 10
+Time = 235 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = 6ff4 | state = 11
+Time = 245 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = 6ff4 | state = 00
+Time = 255 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = 6ff4 | state = 01
+Time = 265 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = 6ff4 | state = 10
+Time = 275 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = 6ff4 | state = 11
+Time = 285 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = 6ff4 | state = 00
+Time = 295 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = 6ff4 | state = 01
+Time = 305 | in_data = 9abc | iir_out_data = cc00 | lms_out_data = 6ff4 | state = 10
+testbench.sv:32: $finish called at 310 (1s)
+Finding VCD file...
+./dump.vcd
+[2024-09-15 20:49:17 UTC] Opening EPWave...
+Done
